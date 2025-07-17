@@ -1,18 +1,18 @@
-
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>linda nocheeeeeeeeee</title>
+  <title>Linda nocheeeeeeeeee</title>
   <style>
     html, body {
       margin: 0;
       padding: 0;
       height: 100%;
-      background: black;
       overflow: hidden;
       font-family: Arial, sans-serif;
       color: white;
       text-align: center;
+      background: transparent; /* 🔧 Quitamos fondo negro */
     }
 
     /* Video de fondo */
@@ -26,7 +26,7 @@
       height: auto;
       transform: translate(-50%, -50%);
       z-index: -1;
-      filter: brightness(0.6);
+      filter: brightness(0.7);
     }
 
     /* Botón centrado */
@@ -39,12 +39,7 @@
       font-size: 24px;
       background-color: rgba(255, 64, 129, 0.9);
       color: white;
-      border: none;
-      border-radius: 12px;
-      cursor: pointer;
-      z-index: 2;
-      box-shadow: 0 0 20px #ff4081;
-      transition: transform 0.3s;
+      border
     }
     .boton:hover {
       transform: translate(-50%, -50%) scale(1.1);
